@@ -1,0 +1,52 @@
+{% extends "main/header.html" %}
+
+{% block content %}
+
+<!--
+	<div class="row">
+		{% for t in water %}
+	    <div class="col s12 m6 offset-m3">
+	      <div class="card indigo darken-4">
+	        <div class="card-content white-text">
+	          <span class="card-title">{{t.water_title}}</span>
+
+	          <p>{{t.water_time}}</p>
+	          <p style="font-size: 70%">{{t.water_duration}}</p>
+
+	        </div>
+	        <div class="card-action">
+	          <a style="color:#ffb3b3" href="#">Learn more</a>
+	        </div>
+	      </div>
+	    </div>
+	    {% endfor %}
+  	</div> -->
+
+<!--
+
+  <div class="row" style="width: 400px; display: block;margin-left: auto; margin-right: auto; margin-top:200px">
+  	{% for t in water %}
+    <div class="col s12 m12">
+      <div class="card">
+        <div class="card-image">
+          <img src="https://www.exploregeorgia.org/sites/default/files/legacy_images/monet-bridge-at-gibbs-gardens-1473179398.jpg">
+          <span class="card-title"><strong>{{t.water_title}}</strong></span>
+        </div>
+        <div class="card-content">
+          <p>Time: {{t.water_time}}</p>
+          <p>Duration: {{t.water_duration}}</p>
+        </div>
+        <div class="card-action">
+          <a href="#">Edit</a>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+            -->
+
+
+<h2>MCS API test</h2>
+<p>The value we retrieved is <strong>{{ val }}</strong>.
+
+{% endblock %}
